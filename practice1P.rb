@@ -1,4 +1,6 @@
-number = 10
+#Progate_rubyⅠ_練習問題
+
+number = 9
 
 if number % 3 == 0 && number % 5 ==0
   puts "15の倍数です"
