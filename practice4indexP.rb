@@ -2,12 +2,12 @@ require "./practice4foodP"
 require "./practice4drinkP"
 
 food1 = Food.new(name:"ピザ", price:800)
-
-puts food1.info
+food1.calorie = 700
+puts food1.calorie
 # food2 = Food.new(name:"すし", price:1000)
 drink1 = Drink.new(name:"コーラ", price:300)
-
-puts drink1.info
+drink1.amount = 500
+puts drink1.amount
 # drink2 = Drink.new(name:"お茶", price:200)
 
 # menus = [menu1, menu2, menu3, menu4]
