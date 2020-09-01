@@ -1,8 +1,8 @@
 require "./practice4foodP"
 require "./practice4drinkP"
 
-food1 = Food.new(name:"ピザ", price:800)
-food2 = Food.new(name:"すし", price:1000)
+food1 = Food.new(name:"ピザ", price:800, calorie:700)
+food2 = Food.new(name:"すし", price:1000, calorie:600)
 drink1 = Drink.new(name:"コーラ", price:300)
 drink2 = Drink.new(name:"お茶", price:200)
 
