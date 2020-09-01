@@ -1,30 +1,35 @@
-require "./practice4menuP"
+require "./practice4foodP"
+require "./practice4drinkP"
 
-menu1 = Menu.new(name:"ピザ", price:800)
-menu2 = Menu.new(name:"すし", price:1000)
-menu3 = Menu.new(name:"コーラ", price:300)
-menu4 = Menu.new(name:"お茶", price:200)
+food1 = Food.new(name:"ピザ", price:800)
 
-menus = [menu1, menu2, menu3, menu4]
+puts food1.info
+# food2 = Food.new(name:"すし", price:1000)
+drink1 = Drink.new(name:"コーラ", price:300)
 
-index = 0
+puts drink1.info
+# drink2 = Drink.new(name:"お茶", price:200)
 
-menus.each do |menu|
-  puts "#{index}.#{menu.info}"
-  index += 1
-end
+# menus = [menu1, menu2, menu3, menu4]
 
-puts "--------------"
-puts "メニューの番号を選択してください"
+# index = 0
 
-order = gets.chomp.to_i
+# menus.each do |menu|
+#   puts "#{index}.#{menu.info}"
+#   index += 1
+# end
 
-selected_menu = menus[order]
+# puts "--------------"
+# puts "メニューの番号を選択してください"
 
-puts "選択されたメニュー：#{selected_menu.name}"
+# order = gets.chomp.to_i
 
-puts "個数を入力してください(3つ以上で100円割引)"
+# selected_menu = menus[order]
 
-count = gets.chomp.to_i
+# puts "選択されたメニュー：#{selected_menu.name}"
 
-puts "お会計は#{selected_menu.get_total_price(count)}円です"
+# puts "個数を入力してください(3つ以上で100円割引)"
+
+# count = gets.chomp.to_i
+
+# puts "お会計は#{selected_menu.get_total_price(count)}円です"
