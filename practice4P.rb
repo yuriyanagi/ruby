@@ -2,9 +2,9 @@ class Menu
   attr_accessor :name
   attr_accessor :price
 
-  def initialize
-    self.name = "ピザ"
-    self.price = 800
+  def initialize(name:, price:)
+    self.name = name
+    self.price = price
   end
 
   def info
@@ -20,6 +20,6 @@ class Menu
   end
 end
 
-menu1 = Menu.new
+menu1 = Menu.new(name:"すし", price:1000)
 
 puts menu1.info
