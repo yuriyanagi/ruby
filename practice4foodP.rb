@@ -4,8 +4,7 @@ class Food < Menu
   attr_accessor :calorie
 
   def initialize(name:, price:, calorie:)
-    self.name = name
-    self.price = price
+    super(name:name, price:price)
     self.calorie = calorie
   end
 
