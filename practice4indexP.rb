@@ -3,7 +3,8 @@ require "./practice4drinkP"
 
 food1 = Food.new(name:"ピザ", price:800)
 food1.calorie = 700
-puts food1.calorie
+
+puts food1.calorie_info
 # food2 = Food.new(name:"すし", price:1000)
 drink1 = Drink.new(name:"コーラ", price:300)
 drink1.amount = 500
