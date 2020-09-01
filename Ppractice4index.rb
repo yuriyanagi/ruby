@@ -1,5 +1,5 @@
-require "./practice4foodP"
-require "./practice4drinkP"
+require "./Ppractice4food"
+require "./Ppractice4drink"
 
 food1 = Food.new(name:"ピザ", price:800, calorie:700)
 food2 = Food.new(name:"すし", price:1000, calorie:600)

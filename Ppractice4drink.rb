@@ -1,4 +1,4 @@
-require "./practice4menuP"
+require "./Ppractice4menu"
 
 class Drink < Menu
   attr_accessor :amount
