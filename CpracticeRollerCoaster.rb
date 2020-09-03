@@ -8,6 +8,9 @@ friends =[]
   puts "お友達の身長は？"
   friend[:height] = gets.to_i
   friends << friend
+end
+
+friends.each do |friend|
   if friend[:height] >= 130
     puts "#{friend[:name]}さんは乗車できます"
     ride_count += 1
