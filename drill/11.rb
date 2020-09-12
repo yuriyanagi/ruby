@@ -8,6 +8,7 @@ def registration(name)
   end
 end
 
+puts "登録したい名前を入力してください(例)YamadaTaro"
 name = gets
 registration(name)
 
