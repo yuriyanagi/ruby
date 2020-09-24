@@ -1,16 +1,18 @@
 def fizz_buzz
-  100.each do |num|
-    if num % 15 == 0
+  num = 1
+  while num <= 100
+    if (num % 3 == 0) && (num % 5 == 0)
       puts "FizzBuzz"
-      if num % 3 == 0
-        puts "Fizz"
-      elsif num % 5 == 0
-        puts "Buzz"
-      end
-    else
+    elsif num % 3 == 0
+      puts "Fizz"
+    elsif num % 5 == 0
+      puts "Buzz"
+    elsif
       puts num
     end
+    num += 1
   end
+
 end
 
 fizz_buzz
